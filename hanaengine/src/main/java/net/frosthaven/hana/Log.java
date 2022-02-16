@@ -16,7 +16,7 @@ public final class Log {
     }
 
     public static void init() {
-        coreLogger = LogManager.getLogger("HANA");
-        appLogger = LogManager.getLogger("APP");
+        coreLogger = LogManager.getLogger("Hana");
+        appLogger = LogManager.getLogger("App");
     }
 }

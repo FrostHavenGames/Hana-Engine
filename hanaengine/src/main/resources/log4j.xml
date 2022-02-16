@@ -3,7 +3,7 @@
 <Appenders>
 <Console name="Console" target="SYSTEM_OUT">
 <PatternLayout>
-<MarkerPatternSelector defaultPattern="%logger - %msg%n">
+<MarkerPatternSelector defaultPattern="[%d{HH:mm:ss}] %logger: %msg%n">
 <PatternMatch key="CLASS" pattern="%sn. %msg: Class=%class%n"/>
 </MarkerPatternSelector>
 </PatternLayout>
